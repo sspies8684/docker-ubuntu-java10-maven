@@ -21,6 +21,7 @@ RUN \
    	cd /opt && \
 	wget http://mirror.cogentco.com/pub/apache/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz && \
 	tar xzvf apache-maven-3.5.3-bin.tar.gz && \
+	rm -rf apache-maven-3.5.3-bin.tar.gz && \
 	ln -s apache-maven-3.5.3 mvn
 
 # Define working directory.
